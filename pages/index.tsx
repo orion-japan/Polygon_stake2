@@ -11,18 +11,7 @@ const Home: NextPage = () => {
       {/* Top Section */}
       <h1 className={styles.h1}>SUN.NFT Deploy - Staking Contract</h1>
       <div className={styles.nftBoxGrid}>
-        <div
-          className={styles.optionSelectBox}
-          role="button"
-          onClick={() => router.push(`/mint`)}
-        >
-          {/* Mint a new NFT */}
-          <Image src="/icons/drop.webp" alt="drop" width={64} height={64} />
-          <h2 className={styles.selectBoxTitle}>Mint a new NFT</h2>
-          <p className={styles.selectBoxDescription}>
-            Use the NFT Drop Contract to claim an NFT from the collection.
-          </p>
-        </div>
+       
 
         <div
           className={styles.optionSelectBox}
